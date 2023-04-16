@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{
+  h1{
+      @apply text-sm sm:text-4xl;
+  }
+}
